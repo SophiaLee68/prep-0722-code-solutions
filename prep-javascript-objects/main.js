@@ -6,7 +6,7 @@ var person = {
 
 console.log(person);
 
-var fullName = 'Sophia' + ' ' + 'Lee';
+var fullName = person.firstName + ' ' + person.lastName;
 console.log("The person's name is: " + fullName);
 
 person.job = 'Student';
